@@ -1,0 +1,16 @@
+:root {
+  --white-color: #ffffff;
+  --text-title-color: #323232;
+  --text-color: #999999;
+  --accent-color: #4985ff;
+}
+
+body {
+  background-color: var(--white-color);
+  font-family: Montserrat, sans-serif;
+  color: var(--text-color);
+}
+
+.list {
+  list-style: none;
+}
