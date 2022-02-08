@@ -303,7 +303,13 @@ body {
 }
 
 .footer-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.57;
   color: var(--text-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
 }
