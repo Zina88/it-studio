@@ -8,9 +8,245 @@
 body {
   background-color: var(--white-color);
   font-family: Montserrat, sans-serif;
+  font-weight: 400;
   color: var(--text-color);
 }
 
 .list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.43;
+
+  display: flex;
+  align-items: center;
+
+  color: var(--white-color);
+  background-color: rgba(71, 63, 63, 0.877);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+
+  text-align: center;
+
+  color: var(--white-color);
+  background-color: rgba(71, 63, 63, 0.877);
+}
+
+.title-text {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+
+  color: var(--white-color);
+  background-color: rgba(71, 63, 63, 0.877);
+}
+
+.btn {
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: var(--white-color);
+}
+
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: center;
+
+  color: var(--text-title-color);
+}
+
+.services-text {
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: center;
+}
+
+.services-item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: #000000;
+}
+
+.services-text {
+  font-size: 14px;
+  line-height: 1.57;
+}
+
+.btn-services {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+
+  color: var(--white-color);
+  background-color: var(--accent-color);
+
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+}
+.standart {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+
+  color: var(--text-title-color);
+}
+.standart-text {
+  font-size: 16px;
+  line-height: 1.56;
+}
+
+.standart-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+
+  text-decoration-line: underline;
+
+  color: var(--accent-color);
+}
+
+.features {
+  font-size: 36px;
+  line-height: 1.47;
+
+  color: #000000;
+}
+.features-text {
+  font-size: 16px;
+  line-height: 1.56;
+
+  color: var(--text-color);
+}
+
+.benefits {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+
+  color: var(--white-color);
+}
+.benefits-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+
+  color: var(--white-color);
+
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+}
+.subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.subtitle > span {
+  color: var(--accent-color);
+}
+
+.subtitle-text {
+  font-size: 16px;
+  line-height: 1.56;
+}
+
+.subtitle-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+
+  text-decoration-line: underline;
+
+  color: var(--accent-color);
+}
+
+.projects {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: center;
+
+  color: #000000;
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: center;
+}
+
+.all-projects {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+
+  color: var(--white-color);
+
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+}
+
+.video {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: center;
+
+  color: var(--white-color);
+  background-color: rgba(155, 156, 156, 0.781);
+}
+
+.video-subtitle {
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: center;
+
+  color: var(--white-color);
+  background-color: rgba(155, 156, 156, 0.781);
+}
+
+.video-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.56;
+
+  color: var(--white-color);
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background-color: var(--white-color);
+
+  border: 1px solid var(--white-color);
+  box-sizing: border-box;
+  border-radius: 200px;
 }
