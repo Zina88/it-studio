@@ -305,21 +305,27 @@
             type="video/ogg"
           />
         </video>
+        <div class="img-video">
+        <img class="img-vector" src="./images/Vector.png" alt="vec" width="60" height="60"/>
         <button class="video-btn" type="button">Смотреть видео</button>
       </div>
+      </div>
     </section>
+    <!--Подпишитесь на нашу рассылку-->
     <section id="news">
       <div class="container">
         <h2 hidden>Полезные статьи, акции, новости</h2>
         <form action="mailto:test@test.ua">
-          <strong class="news">Подпишитесь на нашу рассылку</strong>
+          <strong class="news-strong">Подпишитесь на нашу рассылку</strong>
           <p class="news-text">
             Полезные статьи, акции, новости - получите все это сейчас!
           </p>
-          <input type="text" />
+          <div class="subscribe">
+          <input class="subscribe-form" type="text" />
           <button class="news-btn" type="submit">
             <span>Подписаться</span>
           </button>
+          </div>
           <p class="text-ps">
             Мы не шлем спам, и не передаем никому ваши данные.
           </p>
@@ -328,20 +334,22 @@
     </section>
     <footer id="contacts">
       <div class="container">
-        <h2 class="footer-title">Контактная информация</h2>
+        
+        <div class="contacts-info">
+          <h2 class="footer-title">Контактная информация</h2>
         <address>
-          <ul class="list">
-            <li>
+          <ul class="addres-list list">
+            <li class="addres-items">
               <a class="footer-link link" href="mailto:test@test.ua"
                 >test@test.ua</a
               >
             </li>
-            <li>
+            <li class="addres-items">
               <a class="footer-link link" href="tel:+380999999999"
                 >+38 099 999 99 99</a
               >
             </li>
-            <li>
+            <li class="addres-items">
               <a
                 class="footer-link link"
                 href="https://goo.gl/maps/NuvJJ4YFjE5oZb9V7"
@@ -350,31 +358,42 @@
             </li>
           </ul>
         </address>
-        <h2 class="footer-title">Основные ссылки</h2>
-        <ul class="list">
-          <li><a class="footer-link link" href="#about_us">Главная</a></li>
-          <li><a class="footer-link link" href="#projects">Наши проекты</a></li>
-          <li><a class="footer-link link" href="#services">Наши услуги</a></li>
-          <li><a class="footer-link link" href="#contacts">Контакты</a></li>
+        </div>
+
+        <div class="contacts-info">
+          <h2 class="footer-title">Основные ссылки</h2>
+        <ul class="addres-list list">
+          <li class="addres-items"><a class="footer-link link" href="#about_us">Главная</a></li>
+          <li class="addres-items"><a class="footer-link link" href="#projects">Наши проекты</a></li>
+          <li class="addres-items"><a class="footer-link link" href="#services">Наши услуги</a></li>
+          <li class="addres-items"><a class="footer-link link" href="#contacts">Контакты</a></li>
         </ul>
-        <h2 class="footer-title">Наши проекты</h2>
-        <ul class="list">
-          <li><a class="footer-link link" href="укрнано">УкрНано</a></li>
-          <li><a class="footer-link link" href="unitsity">UnitSity</a></li>
-          <li>
+        </div>
+
+        <div class="contacts-info">
+          <h2 class="footer-title">Наши проекты</h2>
+        <ul class="addres-list list">
+          <li class="addres-items"><a class="footer-link link" href="укрнано">УкрНано</a></li>
+          <li class="addres-items"><a class="footer-link link" href="unitsity">UnitSity</a></li>
+          <li class="addres-items">
             <a class="footer-link link" href="проект-восток">Проект “Восток”</a>
           </li>
-          <li>
+          <li class="addres-items">
             <a class="footer-link link" href="тєц-кременчуг">ТЭЦ Кременчуг</a>
           </li>
         </ul>
-        <h2 class="footer-title">Социальные сети</h2>
-        <ul class="list">
-          <li><a class="footer-link link" href="linkedin">LinkedIn</a></li>
-          <li><a class="footer-link link" href="instagram">Instagram</a></li>
-          <li><a class="footer-link link" href="facebook">Facebook</a></li>
-          <li><a class="footer-link link" href="twitter">Twitter</a></li>
+        </div>
+
+        <div class="contacts-info">
+          <h2 class="footer-title">Социальные сети</h2>
+        <ul class="addres-list list">
+          <li class="addres-items"><a class="footer-link link" href="linkedin">LinkedIn</a></li>
+          <li class="addres-items"><a class="footer-link link" href="instagram">Instagram</a></li>
+          <li class="addres-items"><a class="footer-link link" href="facebook">Facebook</a></li>
+          <li class="addres-items"><a class="footer-link link" href="twitter">Twitter</a></li>
         </ul>
+        </div>
+
       </div>
     </footer>
   </body>
