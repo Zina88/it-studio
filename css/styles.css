@@ -93,8 +93,23 @@ ul {
   color: var(--white-color);
 }
 
-.hero {
+/* hero */
+.logo-img {
+  width: 1920px;
+  height: 900px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.466),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: ;
   background-color: rgba(71, 63, 63, 0.377);
+}
+
+.hero {
   padding: 220px 0 335px 0;
   text-align: center;
 }
@@ -426,12 +441,24 @@ ul {
   border-radius: 30px;
 }
 
+/* Video about us */
 .our-video {
   margin-bottom: 85px;
   background-color: var(--text-color);
   padding-top: 70px;
   padding-bottom: 165px;
   text-align: center;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.466),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/img2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--text-color);
 }
 
 .video {
@@ -572,6 +599,9 @@ ul {
   margin-right: 20px;
 }
 
+.addres-list {
+}
+
 .addres-items {
   margin-bottom: 30px;
 }
@@ -590,6 +620,7 @@ ul {
 }
 
 .footer-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.57;
   color: var(--text-color);
