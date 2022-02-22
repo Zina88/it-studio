@@ -3,6 +3,7 @@
   --text-title-color: #323232;
   --text-color: #999999;
   --accent-color: #4985ff;
+  --hover-color: #3270f5b4;
   --card-set-gap: 20px;
 }
 
@@ -63,7 +64,8 @@ ul {
 
 /* навигация */
 .header {
-  background-color: rgba(71, 63, 63, 0.377);
+  border-bottom: 1px solid #a1a1a1;
+  opacity: 0.5;
 }
 
 .main-nav {
@@ -93,6 +95,11 @@ ul {
   color: var(--white-color);
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
 /* hero */
 .logo-img {
   width: 1920px;
@@ -105,7 +112,6 @@ ul {
     url("../images/img.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: ;
   background-color: rgba(71, 63, 63, 0.377);
 }
 
@@ -153,7 +159,7 @@ ul {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #336cdf;
+  background-color: var(--hover-color);
 }
 
 .about-us {
@@ -194,9 +200,14 @@ ul {
 }
 
 .services-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
   text-align: left;
+  border-radius: 50%;
+  border: 7px double #4985ff;
 }
 
 .services-box {
@@ -232,7 +243,7 @@ ul {
 
 .btn-services:hover,
 .btn-services:focus {
-  background-color: #336cdf;
+  background-color: var(--hover-color);
 }
 
 /* высокие стандарты */
@@ -328,10 +339,14 @@ ul {
   color: var(--white-color);
 }
 .benefits-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  height: 45px;
   margin-left: auto;
   margin-top: 120px;
   margin-bottom: 93px;
-  /* margin-bottom: 20px; */
   padding: 15px 36px;
 
   font-weight: 500;
@@ -344,6 +359,11 @@ ul {
   background-color: var(--accent-color);
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
+}
+
+.benefits-link:hover,
+.benefits-link:focus {
+  background-color: var(--hover-color);
 }
 
 .work-list {
