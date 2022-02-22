@@ -102,6 +102,7 @@ ul {
 
 /* hero */
 .logo-img {
+  margin: 0 auto;
   width: 1920px;
   height: 900px;
   background-image: linear-gradient(
