@@ -12,6 +12,8 @@ body {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   color: var(--text-color);
+  width: 1920px;
+  margin: 0 auto;
 }
 
 /* сброс стилей */
@@ -216,6 +218,10 @@ ul {
   padding-left: 17px;
 }
 
+.services-logo {
+  fill: var(--accent-color);
+}
+
 .services-subtitle {
   margin-bottom: 12px;
   text-align: left;
@@ -270,6 +276,9 @@ ul {
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.56;
+}
+.standart-img {
+  border-radius: 2px;
 }
 
 .standart-link {
@@ -327,9 +336,14 @@ ul {
 }
 
 .section-benefits {
-  background-color: #504dc2;
   display: flex;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(26, 100, 170, 0.671),
+    rgba(37, 183, 228, 0.425)
+  );
 }
+
 .benefits {
   margin-bottom: 70px;
   padding-top: 100px;
@@ -371,11 +385,16 @@ ul {
   display: flex;
   margin-bottom: 84px;
   border-bottom: 1px solid #e0e0e0;
+  color: var(--white-color);
 }
 
 .work-item {
   margin-right: 30px;
   padding-bottom: 85px;
+}
+
+.work-img {
+  border-radius: 25px;
 }
 
 .work-item:last-child {
