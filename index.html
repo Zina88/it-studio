@@ -16,12 +16,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <div class="logo-img">
     <header class="header">
-      <div class="container main-nav">
+      <div
+        class="container main-nav menu-container"
+        id="menu-container"
+        data-menu
+      >
         <nav class="nav">
           <ul class="site-nav">
             <li class="site-nav-item">
@@ -43,19 +46,40 @@
         </nav>
       </div>
     </header>
-    <section class="hero" id="about_us">
-      <div class="container">
-        <h1 class="hero-title">Передовая IT студия</h1>
-        <p class="hero-text">
-          Мы создаем легкие решения сложных задач и проблем
-        </p>
-        <a class="hero-btn link" href="">Наши проекты</a>
-      </div>
-    </section>
-    </div>
+
+    <!-- Mobile menu-->
+    <button
+      class="menu-button"
+      aria-expanded="false"
+      aria-controls="menu-container"
+      data-menu-button
+      type="button"
+    >
+      <svg
+        class="mobile-menu"
+        width="40"
+        height="40"
+        aria-label="Перключатель мобильного меню"
+      >
+        <use class="mobile-menu__open" href="./images/icon.svg#icon-menu"></use>
+        <use
+          class="mobile-menu__close"
+          href="./images/icon.svg#icon-close"
+        ></use>
+      </svg>
+    </button>
+    <!-- <section class="hero" id="about_us">
+        <div class="container">
+          <h1 class="hero-title">Передовая IT студия</h1>
+          <p class="hero-text">
+            Мы создаем легкие решения сложных задач и проблем
+          </p>
+          <a class="hero-btn link" href="">Наши проекты</a>
+        </div>
+      </section> -->
 
     <!--О нас-->
-    <section class="about-us" id="services">
+    <!-- <section class="about-us" id="services">
       <div class="container">
         <h2 class="services-title">
           Мы создаем мобильные приложения для крупных корпораций
@@ -117,10 +141,10 @@
         </ul>
         <a class="btn-services link" href="">Все услуги</a>
       </div>
-    </section>
+    </section> -->
 
     <!--высокие стандарты-->
-    <section class="our-standart">
+    <!-- <section class="our-standart">
       <div class="standart-box container">
         <div class="standart-text">
           <h2 class="standart">Высокие стандарты разработки</h2>
@@ -211,10 +235,10 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
 
     <!--Наши работы-->
-    <section class="section-benefits">
+    <!-- <section class="section-benefits">
       <div class="container">
         <div class="our-works">
           <h2 class="benefits">
@@ -273,8 +297,8 @@
           </li>
         </ul>
       </div>
-    </section>
-    <section id="projects">
+    </section> -->
+    <!-- <section id="projects">
       <div class="container">
         <h2 class="our-projects">Наши проекты</h2>
         <p class="projects-text">
@@ -298,10 +322,10 @@
         </ul>
         <a class="all-projects link" href="">Все проекты</a>
       </div>
-    </section>
+    </section> -->
 
     <!--Видео о нашей работе-->
-    <section class="our-video">
+    <!-- <section class="our-video">
       <div class="container">
         <h2 class="video">Видео о нашей работе</h2>
         <p class="video-subtitle">Просто посмотрите, как мы работаем</p>
@@ -320,10 +344,10 @@
         <button class="video-btn" type="button">Смотреть видео</button>
       </div>
       </div>
-    </section>
+    </section> -->
 
     <!--Подпишитесь на нашу рассылку-->
-    <section id="news">
+    <!-- <section id="news">
       <div class="container">
         <h2 hidden>Полезные статьи, акции, новости</h2>
         <form action="mailto:test@test.ua">
@@ -342,8 +366,8 @@
           </p>
         </form>
       </div>
-    </section>
-    <footer id="contacts">
+    </section> -->
+    <!-- <footer id="contacts">
       <div class="contacts-container container">
         
         <div class="contacts-info">
@@ -407,6 +431,8 @@
 
       </div>
 
-    </footer>
+    </footer> -->
+
+    <script src="./js/menu.js" type="module"></script>
   </body>
 </html>
