@@ -7,11 +7,11 @@ slider.insertAdjacentHTML("beforeend", galleryMarkup);
 function createGalleryCard(images) {
   // images.preventDefault();
   return images
-    .map(({ preview, original, description }) => {
+    .map(({ original, description }) => {
       return `
         <a class="slider__item" href="${original}">
             <img class="gallery__image" 
-                src="${preview}" 
+                src="${original}" 
                 alt="${description}" 
             />
         </a>
@@ -23,10 +23,10 @@ function createGalleryCard(images) {
 $(document).ready(function () {
   $(".slider").slick({
     arrows: true,
-    dots: true,
-    adaptiveHight: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    // dots: true,
+    // adaptiveHight: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     speed: 250,
     easing: "ease",
     infinite: true,
@@ -36,8 +36,6 @@ $(document).ready(function () {
     // pauseOnFocus: true,
     // pauseOnDotsHover: true,
     swipe: true,
-    // waitForAnimate: false,
-    centerMode: true,
-    variableWidth: false,
+    // centerMode: true,
   });
 });
