@@ -1,20 +1,15 @@
 import { galleryItems } from "./gallery-items.js";
-console.log(galleryItems);
-
-const gallery = document.querySelector(".gallery");
-console.log(gallery);
+const slider = document.querySelector(".slider");
 
 const galleryMarkup = createGalleryCard(galleryItems);
-gallery.insertAdjacentHTML("beforeend", galleryMarkup);
-
-gallery.insertAdjacentElement("beforeend", galleryMarkup);
+slider.insertAdjacentHTML("beforeend", galleryMarkup);
 
 function createGalleryCard(images) {
   //   images.preventDefault();
   return images
     .map(({ preview, original, description }) => {
       return `
-        <a class="gallery__item" href="${original}">
+        <a class="slider__item" href="${original}">
             <img class="gallery__image" 
                 src="${preview}" 
                 alt="${description}" 
@@ -25,9 +20,10 @@ function createGalleryCard(images) {
     .join("");
 }
 
-new SimpleLightbox(".gallery a", {
-  /* options */
-  captions: true,
-  captionsData: "alt",
-  captionSelector: "img",
+$(document).ready(function () {
+  $(".slider").slick({
+    arrows: true,
+    dots: true,
+    adaptiveHight: true,
+  });
 });
