@@ -482,14 +482,7 @@ button {
 
 .about-us {
   text-align: center;
-  padding-top: 30px;
-}
-
-@media screen and (min-width: 768px) {
-  .about-us {
-    padding-top: 110px;
-    padding-bottom: 105px;
-  }
+  padding-top: 50px;
 }
 
 .services-title {
@@ -512,6 +505,10 @@ button {
   font-size: 16px;
   line-height: 1.56;
   text-align: center;
+}
+
+.services-list {
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -544,7 +541,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .services-item {
-    margin-right: 33px;
+    margin-right: 15px;
   }
 }
 
@@ -591,8 +588,8 @@ button {
 }
 
 .btn-services {
+  margin-bottom: 50px;
   display: inline-block;
-  margin-top: 55px;
   padding: 15px 36px;
   font-weight: 500;
   font-size: 16px;
@@ -609,5 +606,145 @@ button {
 .btn-services:hover,
 .btn-services:focus {
   background-color: #188ce8;
+}
+
+.our-standart {
+  background-color: #f6f6f8;
+}
+
+.standart-box {
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .standart-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+}
+
+.standart {
+  text-align: center;
+  color: #323232;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+}
+
+@media screen and (min-width: 768px) {
+  .standart {
+    margin-bottom: 40px;
+  }
+}
+
+.standart-text {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.56;
+}
+
+@media screen and (min-width: 768px) {
+  .standart-text {
+    text-align: start;
+  }
+}
+
+.standart-img {
+  border-radius: 2px;
+}
+
+.standart-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .icons {
+    padding: 70px 0;
+  }
+}
+
+.projects-list {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .projects-list {
+    margin-right: 30px;
+  }
+}
+
+.projects-list:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.projects-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects-svg {
+  margin-right: 20px;
+}
+
+.img-icons {
+  fill: #2196f3;
+}
+
+@media screen and (min-width: 768px) {
+  .projects-features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .icons-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.features {
+  font-size: 36px;
+  line-height: 1.47;
+  font-style: normal;
+  color: #000000;
+}
+
+.features-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.56;
+  color: var(--text-color);
 }
 /*# sourceMappingURL=main.css.map */
