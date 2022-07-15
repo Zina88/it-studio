@@ -1,9 +1,10 @@
 .our-standart {
     background-color: #f6f6f8;
+    padding: 50px 0;
 }
 
 .standart-box {
-    padding: 50px 0;
+    margin-bottom: 50px;
 
     @media screen and(min-width:768px){
           display: flex;
@@ -55,7 +56,7 @@
 
 .icons {
     @media screen and(min-width:768px) {
-          padding: 70px 0;
+
     }
   
 }
