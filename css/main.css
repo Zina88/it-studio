@@ -384,117 +384,13 @@ button {
   background-color: #188ce8;
 }
 
-/* Ограничивающая оболочка */
-.slick-list {
-  overflow: hidden;
-}
-
-/* Лента слайдов */
-.slick-track {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-.slick-track a {
-  margin: 30px;
-}
-
-/* Слайд */
-/* Слайд активный (показывается) */
-.slick-slide.slick-active {
-  width: 900px;
-}
-
-/* Слайд основной */
-/* Слайд по центру */
-/* Клонированный слайд */
-/* Стрелка */
-/* Стрелка влево */
-/* Стрелка вправо */
-/* Стрелка не активная */
-/* Точки (булиты) */
-/* Активная точка */
-/* Элемент точки */
-/*Конкретный слайдер*/
-.slider {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  padding: 0px 50px;
-}
-
-.slider .slick-arrow {
-  position: absolute;
-  top: 50%;
-  margin: -30px 0px 0px 0px;
-  font-size: 0;
-  width: 50px;
-  height: 50px;
-  border: transparent;
-}
-
-.slider .slick-arrow.slick-prev {
-  left: 0;
-  background: url(/images/arrow-left2.svg) 0 0/100% no-repeat;
-}
-
-.slider .slick-arrow.slick-next {
-  left: 815px;
-  background: url(/images/arrow-right2.svg) 0 0/100% no-repeat;
-}
-
-.slider .slick-arrow.slick-disabled {
-  opacity: 0.2;
-}
-
-.slider__item {
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  text-align: center;
-  opacity: 1;
-}
-
-.slider .slick-dots {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.slider .slick-dots li {
-  list-style: none;
-}
-
-.slider .slick-dots button {
-  font-size: 0;
-  width: 10px;
-  height: 10px;
-  background-color: black;
-  border-radius: 50%;
-  border: transparent;
-}
-
-.slider .slick-dots li.slick-active button {
-  background-color: transparent;
-  border: 1px solid black;
-}
-
 .backdrop {
   visibility: visible;
   position: fixed;
   top: 0;
   left: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#504dc2), to(#5e12d1));
-  background-image: linear-gradient(to right, #504dc2, #5e12d1);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(80, 76, 194, 0.6)), to(rgba(95, 18, 211, 0.6)));
+  background-image: linear-gradient(to right, rgba(80, 76, 194, 0.6), rgba(95, 18, 211, 0.6));
   opacity: 1;
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -512,7 +408,7 @@ button {
   top: 50%;
   left: 50%;
   padding: 40px;
-  background-color: #ffffff;
+  background-color: #55516c;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -526,7 +422,7 @@ button {
 
 @media screen and (max-width: 767px) {
   .modal-box {
-    max-width: 50px;
+    max-width: 350px;
     width: 100vw;
     max-height: 609px;
     height: 100vh;
