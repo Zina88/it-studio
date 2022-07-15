@@ -2,6 +2,7 @@
     text-align: center;
     @media screen and(min-width:768px){
         display: flex;
+        align-items: center;
     }
 }
 
@@ -12,7 +13,7 @@
     height: 400px;
 
     @media screen and(min-width: 768px){
-        height: 400px;
+        height: 350px;
     }
     @media screen and(min-width: 1200px) {
         height: 490px; 
@@ -45,6 +46,10 @@
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
     border: transparent;
+
+    @media screen and(min-width: 768px){
+        margin-left: auto;
+    }
 }
 
 .benefits-link:hover,
@@ -56,6 +61,13 @@
     margin-top: -50px;
     margin-bottom: 50px;
     text-align: center;
+
+    @media screen and(min-width: 768px) {
+        margin-top: -100px;
+    }
+    @media screen and(min-width: 1200px) {
+        margin-top: -50px;
+    }
 }
 
 .work-list {
@@ -97,7 +109,7 @@
      margin: 0 auto;
     @media screen and(max-width: 767px){
         min-width: 450px;    
-   
+
     }
 }
 

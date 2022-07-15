@@ -60,8 +60,6 @@
     }
   
 }
-.icons-list{
-}
 
 .projects-list {
     margin-bottom: 30px;
@@ -70,7 +68,12 @@
         margin-right: 30px;
     }
 }
+.projects-list:not(:first-child) {
 
+    @media screen and(max-width: 768px) {
+    display: none;
+    }
+}
 .projects-list:last-child {
         margin-right: 0;
         margin-bottom: 0;
