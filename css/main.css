@@ -315,7 +315,7 @@ button {
 
 .logo-img {
   margin: 0 auto;
-  background-image: url("/images/hero.jpg");
+  background-image: url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-position: 80% 100%;
   background-color: rgba(31, 29, 29, 0.4);
@@ -323,7 +323,7 @@ button {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .logo-img {
-    background-image: url("/images/hero@2x.jpg");
+    background-image: url("../images/hero@2x.jpg");
   }
 }
 
@@ -890,12 +890,6 @@ button {
 .work-img {
   border-radius: 25px;
   margin: 0 auto;
-}
-
-@media screen and (max-width: 767px) {
-  .work-img {
-    min-width: 450px;
-  }
 }
 
 .subtitle {
